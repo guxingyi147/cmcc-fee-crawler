@@ -1,0 +1,43 @@
+# Python 编译缓存
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# PyInstaller 构建产物
+build/
+dist/
+*.spec
+
+# 虚拟环境
+venv/
+.venv/
+env/
+
+# 环境变量文件
+.env
+.env.*
+!.env.example
+
+# IDE 配置
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# 系统文件
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 日志文件
+*.log
+
+# 缓存目录
+.cache/
+
+# 打包压缩文件
+*.zip
+*.tar.gz
+*.rar
